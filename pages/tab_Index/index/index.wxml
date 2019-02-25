@@ -1,13 +1,26 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+    <swiper interval="3000" duration="300" next-margin = "20" class='swiperIndex lineGrey_bottom paddingbottom10'>
+      <!-- <block wx:for="{{imgUrls}}"> -->
+        <swiper-item>
+           <image src="../../../images/banner1.jpg" class="slide-image" />
+        </swiper-item>
+        <swiper-item>
+           <image src="../../../images/commonImg.jpg" class="slide-image"/>
+        </swiper-item>     
+        <swiper-item>
+           <image src="../../../images/banner1.jpg" class="slide-image"/>
+        </swiper-item>           
+        <swiper-item>
+           <image src="../../../images/banner2.jpg" class="slide-image" />
+        </swiper-item>           
+      <!-- </block> -->
+    </swiper>
+    <view class='commonTitle'>直播赛事</view>
+    <view class='commonVideoList'>
+        
+    
+    </view>
+    
+
 </view>

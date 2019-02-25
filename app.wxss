@@ -1,10 +1,12 @@
 /**app.wxss**/
 .container {
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 200rpx 0;
-  box-sizing: border-box;
 } 
+.commonTitle{ height: 40px; line-height: 40px; font-size: 18px; font-weight: bold; padding: 0 10px}
+
+
+.lineGrey_top{ border-top: 1px solid #d8d8d8}
+.lineGrey_bottom{ border-bottom: 1px solid #d8d8d8}
+.marginbottom20{ margin-bottom: 20px;}
+.paddingbottom10{ padding-bottom: 10px;}
+.paddingside10{ padding: 0 10px;}
