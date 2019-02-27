@@ -1,0 +1,154 @@
+<!--logs.wxml-->
+<view class="container">
+    <view class='selectedInfo marginside10 lineGrey_bottom paddingbottom10'>
+        <view class='selectTop clearfix'>
+            <image src='http://img3.imgtn.bdimg.com/it/u=1372272133,196599374&fm=26&gp=0.jpg' class='image pull-left'></image>
+            <view class='rightOther'>
+                <view class='flexbox'>
+                    <view class=' videoDetail text-left'>
+                        <view class='num fontWeight font14'>122</view>
+                        <view class='info font12 colorGrey'>照片</view>
+                    </view>  
+                    <view class=' videoDetail'>
+                        <view class='num fontWeight font14'>2334</view>
+                        <view class='info font12 colorGrey'>浏览</view>
+                    </view>  
+                    <view class=' videoDetail text-right'>
+                        <view class='num fontWeight font14'>21</view>
+                        <view class='info font12 colorGrey'>关注</view>
+                    </view>  
+                </view>
+            </view>
+            <view class='reportActive'>
+                <view class='reportBtn font14'>报名活动</view>
+                <view class='reportFollow'></view>
+            </view>
+        </view>
+        <view class='selectCenter'>
+            <view class='name colorBlack font16 fontWeight'>活动名称活动名称活动名称活动名称活动名称</view>
+            <view class='info colorGrey font12'>活动描述活动描述活动描述活动描述活动描述活动描述活动描述活动描述活动描述活动描述活动描述活动描述</view>
+        </view>
+        <view class='selectBottom font12 colorGrey line1Ellipsis'>
+          <view class='pull-left'>粉丝</view>
+          <view class='fansList'>
+            <image src='http://img3.imgtn.bdimg.com/it/u=1372272133,196599374&fm=26&gp=0.jpg' class='fansImg'></image>
+            <image src='http://img3.imgtn.bdimg.com/it/u=1372272133,196599374&fm=26&gp=0.jpg' class='fansImg'></image>
+            <image src='http://img3.imgtn.bdimg.com/it/u=1372272133,196599374&fm=26&gp=0.jpg' class='fansImg'></image>
+            <image src='http://img3.imgtn.bdimg.com/it/u=1372272133,196599374&fm=26&gp=0.jpg' class='fansImg'></image>
+            <image src='http://img3.imgtn.bdimg.com/it/u=1372272133,196599374&fm=26&gp=0.jpg' class='fansImg'></image>
+            <image src='http://img3.imgtn.bdimg.com/it/u=1372272133,196599374&fm=26&gp=0.jpg' class='fansImg'></image>
+            <image src='http://img3.imgtn.bdimg.com/it/u=1372272133,196599374&fm=26&gp=0.jpg' class='fansImg'></image>
+            和其他28位
+          </view>
+        </view>
+    </view>
+    <view class='commonTitle'>KOL直播</view>
+    <view class="section liveSetion  paddingtop10">
+      <scroll-view class="scroll-view clearfix" scroll-x="true" style="width: 100%;">
+          <view class='scroll-x'>
+              <view class="scroll-view-item">
+                <image src='http://img3.imgtn.bdimg.com/it/u=1372272133,196599374&fm=26&gp=0.jpg' class='liveHeader'></image>
+                <view class='font14 text-center'>跑神大飞</view>
+              </view>
+              <view class="scroll-view-item">
+                <image src='http://img3.imgtn.bdimg.com/it/u=1372272133,196599374&fm=26&gp=0.jpg' class='liveHeader'></image>
+                <view class='font14 text-center'>跑神大飞</view>
+              </view>
+              <view class="scroll-view-item">
+                <image src='http://img3.imgtn.bdimg.com/it/u=1372272133,196599374&fm=26&gp=0.jpg' class='liveHeader'></image>
+                <view class='font14 text-center'>跑神大飞</view>
+              </view>
+              <view class="scroll-view-item">
+                <image src='http://img3.imgtn.bdimg.com/it/u=1372272133,196599374&fm=26&gp=0.jpg' class='liveHeader'></image>
+                <view class='font14 text-center'>跑神大飞</view>
+              </view>
+              <view class="scroll-view-item">
+                <image src='http://img3.imgtn.bdimg.com/it/u=1372272133,196599374&fm=26&gp=0.jpg' class='liveHeader'></image>
+                <view class='font14 text-center'>跑神大飞</view>
+              </view>
+              <view class="scroll-view-item">
+                <image src='http://img3.imgtn.bdimg.com/it/u=1372272133,196599374&fm=26&gp=0.jpg' class='liveHeader'></image>
+                <view class='font14 text-center'>跑神大飞</view>
+              </view>              
+          </view>
+      </scroll-view>
+      <view class='lineGrey_bottom paddingtop10 marginside10'></view>
+    </view>
+    <view class='commonTitle'>精选视频</view>
+    <swiper interval="3000" duration="300" next-margin = "25" class='swiperIndex lineGrey_bottom paddingbottom10 swiperSelected'>
+      <!-- <block wx:for="{{imgUrls}}"> -->
+        <swiper-item>
+           <view class='swiperImage'>
+              <image src="../../../images/banner1.jpg" class="slide-image" mode='aspectFill' />
+              <view class='time'>08:08</view>
+           </view>
+           <view class='swiper-text line1Ellipsis font14'>
+              视频名称
+              <view class='shareIcon'></view>
+           </view>
+        </swiper-item>
+        <swiper-item>
+           <view class='swiperImage'>
+              <image src="../../../images/banner1.jpg" class="slide-image" mode='aspectFill' />
+              <view class='time'>08:08</view>
+           </view>
+           <view class='swiper-text line1Ellipsis font14'>
+              视频名称
+              <view class='shareIcon'></view>
+           </view>
+        </swiper-item>     
+        <swiper-item>
+           <view class='swiperImage'>
+              <image src="../../../images/banner1.jpg" class="slide-image" mode='aspectFill' />
+              <view class='time'>08:08</view>
+           </view>
+           <view class='swiper-text line1Ellipsis font14'>
+              视频名称
+              <view class='shareIcon'></view>
+           </view>
+        </swiper-item>           
+        <swiper-item>
+           <view class='swiperImage'>
+              <image src="../../../images/banner1.jpg" class="slide-image" mode='aspectFill' />
+              <view class='time'>08:08</view>
+           </view>
+           <view class='swiper-text line1Ellipsis font14'>
+              视频名称
+              <view class='shareIcon'></view>
+           </view>
+        </swiper-item>           
+      <!-- </block> -->
+    </swiper>
+
+    <view class='flexbox lineGrey_bottom selectTabTitle'>
+        <view class='tabLine'>成绩查询</view>
+        <view class='tabLine'>限时特价购</view>
+        <view>路线</view>
+    </view>
+
+    <view class='commonTitle'>
+       精选图片
+       <view class='changeTab'>
+          <view class='tab tabRow on  '></view>
+          <view class='tab tabLine'></view>
+       </view>
+    </view>
+
+    <view class='PictureList lineList'><!--rowList-->
+        <view class="imageList">
+            <image src='../../../images/banner1.jpg' mode="aspectFill"></image>
+        </view>
+        <view class="imageList">
+            <image src='../../../images/banner2.jpg' mode="aspectFill"></image>
+        </view>
+        <view class="imageList">
+            <image src='../../../images/banner1.jpg' mode="aspectFill"></image>
+        </view>
+        <view class="imageList">
+            <image src='../../../images/banner2.jpg' mode="aspectFill"></image>
+        </view>
+    </view>
+
+
+
+</view>

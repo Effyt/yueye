@@ -1,0 +1,14 @@
+/**index.wxss**/
+.myVideo{ width: 100%;}
+page{ background: #2D2D2D}
+.videoDetailMessage .name{ margin: 5px 0; }
+
+.fixedTop{ width: 100%; position: fixed; left: 0; bottom: 0; height: 44px; line-height: 44px; background: #333333}
+.footerTab{}
+.footerTab .icon{ width: 20px; height: 20px; display: inline-block; vertical-align: middle}
+.footerTab .icon.iconDot{ background: url(https://mobile.piaoduwang.cn/img/dot_icon.png) no-repeat left center; background-size: 16px; vertical-align: sub}
+.footerTab .icon.iconShare{ background: url(https://mobile.piaoduwang.cn/img/shareWhite.png) no-repeat left center; background-size: 16px;}
+.footerTab .icon.iconComment{ background: url(https://mobile.piaoduwang.cn/img/comment.png) no-repeat left center; background-size: 16px;}
+
+
+

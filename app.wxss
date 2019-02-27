@@ -1,12 +1,16 @@
 /**app.wxss**/
 .container {height: 100%;} 
 image{ display: block}
-.clearfix{ content: ''; clear: both; display:block;}
+.clearfix::after{ content: ''; clear: both; display:block;}
 .pull-left{ float: left;}
 .pull-right{ float: right;}
+.text-left{ text-align: left}
+.text-center{ text-align: center}
+.text-right{ text-align: right}
 
 .colorBlack{ color:#000}
 .colorGrey{ color:#8b8b8b}
+.colorWhite{ color:#ffffff}
 
 .font20{ font-size:20px}
 .font18{ font-size: 18px;}
@@ -25,11 +29,23 @@ image{ display: block}
 .lineGrey_top{ border-top: 1px solid #d8d8d8}
 .lineGrey_bottom{ border-bottom: 1px solid #d8d8d8}
 .marginbottom20{ margin-bottom: 20px;}
+.paddingtop10{ padding-top: 15px;}
 .paddingbottom10{ padding-bottom: 15px;}
 .paddingside10{ padding: 0 15px;}
 .marginside10{ margin: 0 15px;}
+.marginright10{ margin-right: 15px;}
 
-.commonTitle{ height: 40px; line-height: 40px; font-size: 18px; font-weight: bold; padding: 0 15px}
+
+.commonTitle{ height: 40px; line-height: 40px; font-size: 18px; font-weight: bold; padding: 0 15px; position: relative}
+.commonTitle .changeTab{ width: 100px;height: 40px; /*background: #000; */position: absolute; right: 0; top: 0;}
+.commonTitle .changeTab .tab{ width: 50%; height: 40px; float: left; display: inline-block}
+.commonTitle .changeTab .tab.tabRow{ background: url(https://mobile.piaoduwang.cn/img/grid.png) no-repeat center center; background-size: 20px}
+.commonTitle .changeTab .tab.tabRow.on{background: url(https://mobile.piaoduwang.cn/img/grid_on.png) no-repeat center center; background-size: 20px}
+.commonTitle .changeTab .tab.tabLine{ background: url(https://mobile.piaoduwang.cn/img/long.png) no-repeat center center;background-size: 18px}
+.commonTitle .changeTab .tab.tabLine.on{ background: url(https://mobile.piaoduwang.cn/img/long_on.png) no-repeat center center;background-size: 18px}
+
+
+
 .commonVideoList{ padding-bottom: 15px}
 .commonVideoList:not(:last-child){margin-bottom: 20px;}
 .commonVideoListImage{ width: 100%; border-radius:5px; height: 224px}
@@ -38,10 +54,33 @@ image{ display: block}
 .commonVideoInfo .commonInfo{}
 .commonVideoInfo .commonInfo .name{ font-size: 16px; height: 26px; line-height: 26px}
 .commonVideoInfo .commonInfo .info{ font-size: 13px}
-.shareIcon{ width: 30px; height: 30px; display: inline-block; background:#000;/* url(../images/shareGrey.png) no-repeat center center;*/ background-size: 30px; position: absolute; right: 0; top:5px;}
+.shareIcon{ width: 30px; height: 30px; display: inline-block; background:url(https://mobile.piaoduwang.cn/img/shareGrey.png) no-repeat center top;background-size: 15px; position: absolute; right: 0; top:5px;}
 
 .commonReviewList{ margin-bottom: 10px; position: relative}
 .commonReviewList .commonReviewInfo{ margin-right: 35px;}
 .commonReviewList .commonReviewImage{ width: 130px; height: 90px; margin-right: 10px; border-radius: 3px}
 .commonReviewList .commonReviewInfo .name{ margin-bottom: 10px}
 .commonReviewList .shareIcon{ bottom: 0;top: inherit}
+
+.swiperIndex{ width: 100%; height: 216px;}
+.swiperSelected{ height: 246px;}
+.swiperIndex swiper-item{border-radius: 5px; overflow: hidden;height: 216px;}
+.swiperIndex swiper-item image{ margin-left:15px;border-radius: 5px;width: calc( 100% - 15px);height:216px; }
+.swiperIndex swiper-item .swiper-text{ margin-left: 15px; height: 30px; line-height: 30px; position: relative}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
