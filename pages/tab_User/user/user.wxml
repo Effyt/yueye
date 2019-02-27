@@ -1,0 +1,14 @@
+<!--user.wxml-->
+<view class="container">
+    <view class='userInfo'>
+        <image src="../../../images/banner1.jpg" class="userImage" />
+        <text class='userName font20 fontWeight'>跑神大飞</text>
+    </view>
+    <view class='userMenu'>
+        <view class='menuList'>我的关注</view>
+        <view class='menuList'>我的点赞</view>
+        <view class='menuList'>我的评论</view>
+    </view>
+
+
+</view>

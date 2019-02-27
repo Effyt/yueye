@@ -1,0 +1,9 @@
+<template name="navBar">
+{{navInfo}}
+      <view class="nav_link" wx:for="{{navData2}}" wx:for-item="item"> 
+          {{item.name}}
+      </view>  
+      <view class="nav_link">
+          <!-- 666 -->
+      </view>        
+</template>

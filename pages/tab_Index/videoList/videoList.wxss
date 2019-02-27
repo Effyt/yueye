@@ -1,0 +1,25 @@
+/**index.wxss**/
+.videoBoxBg{ background: url('https://mobile.piaoduwang.cn/img/videoBg.jpg') no-repeat center center; height: 120px; width: 100%; background-size: 100% auto;position: relative}
+.videoHeaderImg{ width: 76px; height: 76px; border-radius: 50%; position: absolute; left: 20px; bottom:-38px; border: 2px solid #fff}
+.videoName{ height: 38px; line-height: 38px; padding-left: 110px}
+.videoInfo{ padding-top: 5px; padding-bottom: 20px}
+.videoFlex{ background: #F5F5F5; padding: 13px 0}
+
+.videoGather{ margin: 10px 0 10px 10px}
+.videoGather .list{ width: calc(50% - 10px); margin-right: 10px; float: left;}
+.videoGather .list .img{ height: 100px; width: 100%; border-radius: 3px}
+.videoGather .name{ height: 30px; line-height: 30px}
+.videoGather .list .imageBox{ position: relative}
+.videoGather .list .imageBox .time{ position: absolute; right: 5px; bottom: 0; height: 25px; color: #fff; line-height: 25px; font-size: 13px}
+
+
+
+
+
+
+
+
+
+
+
+

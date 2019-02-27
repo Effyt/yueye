@@ -1,0 +1,74 @@
+<!--videoList.wxml-->
+<view class="container">
+    <view class='videoBoxInfo'>
+        <view class='videoBoxBg'>
+            <image src='http://img3.imgtn.bdimg.com/it/u=1372272133,196599374&fm=26&gp=0.jpg' class='videoHeaderImg'></image>
+        </view>
+        <view class='videoName fontWeight font16'>跑神大飞</view>
+        <view class='videoInfo colorGrey font14 line2Ellipsis marginside10'>文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述文案描述</view>
+    </view>
+    <view class='flexbox videoFlex'>
+        <view class=' videoDetail'>
+            <view class='num fontWeight'>20</view>
+            <view class='info font12 colorGrey'>视频</view>
+        </view>
+        <view class=' videoDetail'>
+            <view class='num fontWeight'>5552</view>
+            <view class='info font12 colorGrey'>观看</view>
+        </view>   
+        <view class=' videoDetail'>
+            <view class='num fontWeight'>20</view>
+            <view class='info font12 colorGrey'>点赞</view>
+        </view>
+        <view class=' videoDetail'>
+            <view class='num fontWeight'>20</view>
+            <view class='info font12 colorGrey'>评论</view>
+        </view>   
+    </view>
+    <!--视频列表-->
+    <view class='videoGather clearfix'>
+        <view class='list'>
+            <view class='imageBox'>
+               <image src='https://mobile.piaoduwang.cn/img/videoBg.jpg' class='img'  mode='aspectFill'></image>           
+               <view class='time'>08:07</view>
+            </view> 
+            <view class='name line1Ellipsis font14 colorGrey'>视频名称视频名称视频名称视频名称视频名称</view>
+        </view>
+        <view class='list'>
+            <view class='imageBox'>
+               <image src='https://mobile.piaoduwang.cn/img/videoBg.jpg' class='img'  mode='aspectFill'></image>           
+               <view class='time'>08:07</view>
+            </view> 
+            <view class='name line1Ellipsis font14 colorGrey'>视频名称</view>
+        </view>   
+        <view class='list'>
+            <view class='imageBox'>
+               <image src='https://mobile.piaoduwang.cn/img/videoBg.jpg' class='img'  mode='aspectFill'></image>           
+               <view class='time'>08:07</view>
+            </view> 
+            <view class='name line1Ellipsis font14 colorGrey'>视频名称</view>
+        </view>          
+        <view class='list'>
+            <view class='imageBox'>
+               <image src='https://mobile.piaoduwang.cn/img/videoBg.jpg' class='img'  mode='aspectFill'></image>           
+               <view class='time'>08:07</view>
+            </view> 
+            <view class='name line1Ellipsis font14 colorGrey'>视频名称</view>
+        </view>  
+        <view class='list'>
+            <view class='imageBox'>
+               <image src='https://mobile.piaoduwang.cn/img/videoBg.jpg' class='img'  mode='aspectFill'></image>           
+               <view class='time'>08:07</view>
+            </view> 
+            <view class='name line1Ellipsis font14 colorGrey'>视频名称</view>
+        </view>          
+        <view class='list'>
+            <view class='imageBox'>
+               <image src='https://mobile.piaoduwang.cn/img/videoBg.jpg' class='img'  mode='aspectFill'></image>           
+               <view class='time'>08:07</view>
+            </view> 
+            <view class='name line1Ellipsis font14 colorGrey'>视频名称</view>
+        </view>        
+    </view>
+
+</view>

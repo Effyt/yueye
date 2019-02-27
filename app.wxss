@@ -1,12 +1,47 @@
 /**app.wxss**/
-.container {
-  height: 100%;
-} 
-.commonTitle{ height: 40px; line-height: 40px; font-size: 18px; font-weight: bold; padding: 0 10px}
+.container {height: 100%;} 
+image{ display: block}
+.clearfix{ content: ''; clear: both; display:block;}
+.pull-left{ float: left;}
+.pull-right{ float: right;}
 
+.colorBlack{ color:#000}
+.colorGrey{ color:#8b8b8b}
+
+.font20{ font-size:20px}
+.font18{ font-size: 18px;}
+.font16{ font-size: 16px;}
+.font14{ font-size: 14px;}
+.font12{ font-size: 12px;}
+
+.fontWeight{ font-weight: bold}
+
+
+.flexbox{text-align: center;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;}
+.flexbox view{-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1;}
+.line1Ellipsis{overflow: hidden;white-space: nowrap;text-overflow:ellipsis;}
+.line2Ellipsis{overflow:hidden; text-overflow:ellipsis;display:-webkit-box; -webkit-box-orient:vertical;-webkit-line-clamp:2;white-space: initial; }
 
 .lineGrey_top{ border-top: 1px solid #d8d8d8}
 .lineGrey_bottom{ border-bottom: 1px solid #d8d8d8}
 .marginbottom20{ margin-bottom: 20px;}
-.paddingbottom10{ padding-bottom: 10px;}
-.paddingside10{ padding: 0 10px;}
+.paddingbottom10{ padding-bottom: 15px;}
+.paddingside10{ padding: 0 15px;}
+.marginside10{ margin: 0 15px;}
+
+.commonTitle{ height: 40px; line-height: 40px; font-size: 18px; font-weight: bold; padding: 0 15px}
+.commonVideoList{ padding-bottom: 15px}
+.commonVideoList:not(:last-child){margin-bottom: 20px;}
+.commonVideoListImage{ width: 100%; border-radius:5px; height: 224px}
+.commonVideoInfo{ margin-top: 10px; position: relative}
+.commonInfoImage{ width: 45px; height: 45px; border-radius: 50%; float: left; margin-right: 10px}
+.commonVideoInfo .commonInfo{}
+.commonVideoInfo .commonInfo .name{ font-size: 16px; height: 26px; line-height: 26px}
+.commonVideoInfo .commonInfo .info{ font-size: 13px}
+.shareIcon{ width: 30px; height: 30px; display: inline-block; background:#000;/* url(../images/shareGrey.png) no-repeat center center;*/ background-size: 30px; position: absolute; right: 0; top:5px;}
+
+.commonReviewList{ margin-bottom: 10px; position: relative}
+.commonReviewList .commonReviewInfo{ margin-right: 35px;}
+.commonReviewList .commonReviewImage{ width: 130px; height: 90px; margin-right: 10px; border-radius: 3px}
+.commonReviewList .commonReviewInfo .name{ margin-bottom: 10px}
+.commonReviewList .shareIcon{ bottom: 0;top: inherit}

@@ -1,26 +1,75 @@
 <!--index.wxml-->
+<import src="../../../template/navBar/navBar.wxml" />
+<template is="navBar" data="{{navBar}}"/>
+<!-- <view class="flex fix_nav_wp">
+    <block wx:for="{{navData}}" wx:key="">
+        <template is="navBar" data="{{...item}}"/>
+    </block>
+</view>
+<view>首页</view> -->
 <view class="container">
-    <swiper interval="3000" duration="300" next-margin = "20" class='swiperIndex lineGrey_bottom paddingbottom10'>
+    <swiper interval="3000" duration="300" next-margin = "25" class='swiperIndex lineGrey_bottom paddingbottom10'>
       <!-- <block wx:for="{{imgUrls}}"> -->
         <swiper-item>
-           <image src="../../../images/banner1.jpg" class="slide-image" />
+           <image src="../../../images/banner1.jpg" class="slide-image" mode='aspectFill' />
         </swiper-item>
         <swiper-item>
-           <image src="../../../images/commonImg.jpg" class="slide-image"/>
+           <image src="../../../images/commonImg.jpg" class="slide-image" mode='aspectFill'/>
         </swiper-item>     
         <swiper-item>
-           <image src="../../../images/banner1.jpg" class="slide-image"/>
+           <image src="../../../images/banner1.jpg" class="slide-image" mode='aspectFill' />
         </swiper-item>           
         <swiper-item>
-           <image src="../../../images/banner2.jpg" class="slide-image" />
+           <image src="../../../images/banner2.jpg" class="slide-image" mode='aspectFill' />
         </swiper-item>           
       <!-- </block> -->
     </swiper>
     <view class='commonTitle'>直播赛事</view>
-    <view class='commonVideoList'>
-        
+    <view class='commonVideoBox'>
+      <view class='commonVideoList marginside10 lineGrey_bottom'>
+         <image src="../../../images/commonImg.jpg" class="commonVideoListImage"  mode='aspectFill'/>
+         <view class='commonVideoInfo'>
+            <image src='http://img3.imgtn.bdimg.com/it/u=1372272133,196599374&fm=26&gp=0.jpg' class='commonInfoImage' mode='aspectFill'></image>
+            <view class='commonInfo'>
+                <view class='name colorBlack fontWeight'>2019年新年新气象</view>
+                <view class='info colorGrey'>活动描述</view>
+            </view>
+            <view class='shareIcon'></view>
+         </view>
+      </view>   
+
+       <view class='commonVideoList marginside10 lineGrey_bottom'>
+         <image src="../../../images/commonImg.jpg" class="commonVideoListImage" mode='aspectFill'/>
+         <view class='commonVideoInfo'>
+            <image src='http://img3.imgtn.bdimg.com/it/u=1372272133,196599374&fm=26&gp=0.jpg' class='commonInfoImage' mode='aspectFill'></image>
+            <view class='commonInfo'>
+                <view class='name colorBlack fontWeight'>2019年新年新气象</view>
+                <view class='info colorGrey'>活动描述</view>
+            </view>
+            <view class='shareIcon'></view>
+         </view>
+      </view>       
+    </view>
+    <view class='commonTitle'>直播回顾</view>
+    <view class='commonReviewBox'>
+        <view class='commonReviewList marginside10'>
+            <image src='../../../images/commonImg.jpg' class='commonReviewImage pull-left' mode='aspectFill'></image>        
+            <view class='commonReviewInfo'>
+                <view class='name colorBlack font16 line2Ellipsis'>2019年新年新气象2019年新年新气象</view>
+                <view class='info colorGrey font14 line2Ellipsis'>活动描述活动描述活动描述活动描述活动描述活动描述活动描述活动描述活动描述活动描述</view>
+            </view>
+            <view class='shareIcon'></view>
+        </view>
+    
+        <view class='commonReviewList marginside10'>
+            <image src='../../../images/commonImg.jpg' class='commonReviewImage pull-left' mode='aspectFill'></image>        
+            <view class='commonReviewInfo'>
+                <view class='name colorBlack font16 line2Ellipsis'>2019年新年新气象2019年新年新气象</view>
+                <view class='info colorGrey font14 line2Ellipsis'>活动描述活动描述活动描述活动描述活动描述活动描述活动描述活动描述活动描述活动描述</view>
+            </view>
+            <view class='shareIcon'></view>
+        </view>   
     
     </view>
-    
 
 </view>
