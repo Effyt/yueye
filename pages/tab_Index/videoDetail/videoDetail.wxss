@@ -11,4 +11,25 @@ page{ background: #2D2D2D}
 .footerTab .icon.iconComment{ background: url(https://mobile.piaoduwang.cn/img/comment.png) no-repeat left center; background-size: 16px;}
 
 
+.myVideoSection{ position: fixed; left: 0; top: 0; width: 100%; z-index: 999}
+.videoDetailMessage{ margin-top: 230px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
