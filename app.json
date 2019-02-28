@@ -1,5 +1,6 @@
 {
   "pages":[
+    
     "pages/tab_Index/index/index",  
     "pages/tab_Index/videoDetail/videoDetail",  
     "pages/tab_Index/imageDetail/imageDetail",

@@ -1,32 +1,21 @@
-//selected.js
-const order = ['red', 'yellow', 'blue', 'green', 'red']
+//videoDetail.js
 Page({
   data: {
-    toView: 'red',
-    scrollTop: 100
+    changeTab: true,
+
   },
-  upper(e) {
-    console.log(e)
-  },
-  lower(e) {
-    console.log(e)
-  },
-  scroll(e) {
-    console.log(e)
-  },
-  tap(e) {
-    for (let i = 0; i < order.length; ++i) {
-      if (order[i] === this.data.toView) {
-        this.setData({
-          toView: order[i + 1]
-        })
-        break
-      }
+  changeTabStyle(){
+    let currTab = this.data.changeTab;
+    console.log(currTab)
+    if (currTab){
+      this.setData({ changeTab: false })
+    }else{
+      this.setData({ changeTab: true })
     }
-  },
-  tapMove(e) {
-    this.setData({
-      scrollTop: this.data.scrollTop + 10
-    })
+
   }
+
+
+
+
 })

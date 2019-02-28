@@ -123,18 +123,18 @@
     <view class='flexbox lineGrey_bottom selectTabTitle'>
         <view class='tabLine'>成绩查询</view>
         <view class='tabLine'>限时特价购</view>
-        <view>路线</view>
+        <view class='tabLine'>路线</view>
     </view>
 
     <view class='commonTitle'>
        精选图片
        <view class='changeTab'>
-          <view class='tab tabRow on  '></view>
-          <view class='tab tabLine'></view>
+          <view class='tab tabRow {{changeTab?"on":""}}' bindtap='changeTabStyle'></view>
+          <view class='tab tabLine {{!changeTab?"on":""}}' bindtap='changeTabStyle'></view>
        </view>
     </view>
 
-    <view class='PictureList lineList'><!--rowList-->
+    <view class='PictureList  {{changeTab?"rowList":"lineList"}}'><!--rowList-->
         <view class="imageList">
             <image src='../../../images/banner1.jpg' mode="aspectFill"></image>
         </view>
