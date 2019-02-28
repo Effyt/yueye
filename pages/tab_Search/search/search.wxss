@@ -1,0 +1,18 @@
+/**search.wxss**/
+.searchBar{ height: 40px; position: fixed; left: 15px; right:15px; top: 0; width:calc(100% - 30px); background: #fff;}
+.searchBar .searchInput{ border: 1px solid #A4A4A4; height: 35px; width: calc( 100% - 104px); float: left; background: url(https://mobile.piaoduwang.cn/img/search.png) no-repeat 10px center; background-size: 20px; padding-left: 40px;}
+.searchBtn{ width: 60px; height: 37px; line-height: 37px; background: #000000; color: #fff; border-radius: 0; font-size: 14px; float: right}
+
+.commonVideoBox{ margin-top: 50px;}
+
+
+
+
+
+
+
+
+
+
+
+

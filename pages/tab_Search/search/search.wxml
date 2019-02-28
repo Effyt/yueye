@@ -1,0 +1,39 @@
+<!--search.wxml-->
+<view class="container">
+    <view class='searchBar'>
+        <input type='text' class='searchInput'></input>
+        <button type='button' class='searchBtn'>搜索</button>
+    </view>
+
+    <view class='commonVideoBox'>
+        <view class='commonVideoList marginside10 lineGrey_bottom'>
+          <image src="../../../images/commonImg.jpg" class="commonVideoListImage"  mode='aspectFill'/>
+          <view class='commonVideoInfo'>
+              <image src='http://img3.imgtn.bdimg.com/it/u=1372272133,196599374&fm=26&gp=0.jpg' class='commonInfoImage' mode='aspectFill'></image>
+              <view class='commonInfo'>
+                  <view class='name colorBlack fontWeight'>2019年新年新气象</view>
+                  <view class='info colorGrey'>活动描述</view>
+              </view>
+              <view class='shareIcon'></view>
+          </view>
+        </view>   
+        <view class='commonVideoList marginside10 lineGrey_bottom'>
+          <image src="../../../images/commonImg.jpg" class="commonVideoListImage"  mode='aspectFill'/>
+          <view class='commonVideoInfo'>
+              <image src='http://img3.imgtn.bdimg.com/it/u=1372272133,196599374&fm=26&gp=0.jpg' class='commonInfoImage' mode='aspectFill'></image>
+              <view class='commonInfo'>
+                  <view class='name colorBlack fontWeight'>2019年新年新气象</view>
+                  <view class='info colorGrey'>活动描述</view>
+              </view>
+              <view class='shareIcon'></view>
+          </view>
+        </view>        
+    </view>
+
+
+
+
+
+
+
+</view>

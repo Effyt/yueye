@@ -1,0 +1,6 @@
+<!--user.wxml-->
+<view class="container">
+    <view class='commonTitle'>我的评论</view>  
+
+
+</view>

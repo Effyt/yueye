@@ -5,9 +5,10 @@
         <text class='userName font20 fontWeight'>跑神大飞</text>
     </view>
     <view class='userMenu'>
-        <view class='menuList'>我的关注</view>
-        <view class='menuList'>我的点赞</view>
-        <view class='menuList'>我的评论</view>
+    
+        <navigator url="/pages/tab_User/myFollow/myFollow" class='menuList'>我的关注</navigator>
+        <navigator url="/pages/tab_User/myDot/myDot" class='menuList'>我的点赞</navigator>
+        <navigator url="/pages/tab_User/myComment/myComment" class='menuList'>我的评论</navigator>
     </view>
 
 

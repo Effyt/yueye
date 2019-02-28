@@ -1,0 +1,6 @@
+<!--user.wxml-->
+<view class="container">
+    <view class='commonTitle'>我的点赞-视频</view>   
+
+    <view class='commonTitle'>我的点赞-图片</view>    
+</view>

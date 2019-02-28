@@ -1,17 +1,42 @@
 {
   "pages":[
-    "pages/tab_Index/videoDetail/videoDetail",
+    "pages/tab_Index/index/index",  
+    "pages/tab_Index/videoDetail/videoDetail",  
+    "pages/tab_Index/imageDetail/imageDetail",
+    "pages/tab_Search/search/search",        
     "pages/tab_Index/Selected/Selected",
-    "pages/tab_Index/index/index",       
     "pages/tab_Index/videoList/videoList",
-    "pages/tab_User/user/user",  
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/tab_User/user/user",
+    "pages/tab_User/myFollow/myFollow",
+    "pages/tab_User/myDot/myDot",
+    "pages/tab_User/myComment/myComment"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
-  }
+  },
+    "tabBar": {
+      "list": [
+        {
+          "pagePath":"pages/tab_Index/index/index",
+          "text": "首页",
+          "iconPath": "images/tabMain.png",
+          "selectedIconPath": "images/tabMain_on.png"
+        },
+        {
+          "pagePath":"pages/tab_Search/search/search",
+          "text": "搜索",
+          "iconPath": "images/search.png",
+          "selectedIconPath": "images/search_on.png"
+        },
+        {
+          "pagePath": "pages/tab_User/user/user",
+          "text": "我的",
+          "iconPath": "images/tabUser.png",
+          "selectedIconPath": "images/tabUser_on.png"
+        }
+      ]
+    }
 }

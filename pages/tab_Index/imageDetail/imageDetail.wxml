@@ -1,63 +1,9 @@
 <!--videoDetail.wxml-->
 <view class="container">
-    <view class="section myVideoSection">
-        <video id="myVideo" class='myVideo'
-          src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400"
-          autoplay
-          controls
-          title="笨蛋"
-        ></video>
+      <view class='imagesContent'>
+        <image src='../../../images/commonImg.jpg'></image>
       </view>
-      <view class='videoDetailMessage marginside10 paddingbottom10'>
-          <view class='name colorWhite font18 fontWeight'>无人驾驶据我们还远吗？</view>
-          <view class='detail colorWhite font14'>无人驾驶技术已经初步成熟无人驾驶技术已经初步成熟无人驾驶技术已经初步成熟无人驾驶技术已经初步成熟无人驾驶技术已经初步成熟</view>
-      </view>
-      <view class='lineGrey_bottom'></view>
-      <view class='commonReviewBox paddingtop10'>
-          <view class='commonReviewList marginside10'>
-              <navigator url="/pages/tab_Index/videoDetail/videoDetail" open-type="redirect">
-                <image src='../../../images/commonImg.jpg' class='commonReviewImage pull-left' mode='aspectFill'></image>        
-                <view class='commonReviewInfo'>
-                    <view class='name colorWhite font16 line2Ellipsis'>2019年新年新气象2019年新年新气象</view>
-                    <view class='info colorWhite font14 line2Ellipsis'>活动描述活动描述活动描述活动描述活动描述活动描述活动描述活动描述活动描述活动描述</view>
-                </view>
-              </navigator>
-              <view class='shareIcon'></view>
-          </view>
-          <view class='commonReviewList marginside10'>
-              <navigator url="/pages/tab_Index/videoDetail/videoDetail" open-type="redirect">
-                <image src='../../../images/commonImg.jpg' class='commonReviewImage pull-left' mode='aspectFill'></image>        
-                <view class='commonReviewInfo'>
-                    <view class='name colorWhite font16 line2Ellipsis'>2019年新年新气象2019年新年新气象</view>
-                    <view class='info colorWhite font14 line2Ellipsis'>活动描述活动描述活动描述活动描述活动描述活动描述活动描述活动描述活动描述活动描述</view>
-                </view>
-              </navigator>
-              <view class='shareIcon'></view>
-          </view>
-          <view class='commonReviewList marginside10'>
-              <navigator url="/pages/tab_Index/videoDetail/videoDetail" open-type="redirect">
-                <image src='../../../images/commonImg.jpg' class='commonReviewImage pull-left' mode='aspectFill'></image>        
-                <view class='commonReviewInfo'>
-                    <view class='name colorWhite font16 line2Ellipsis'>2019年新年新气象2019年新年新气象</view>
-                    <view class='info colorWhite font14 line2Ellipsis'>活动描述活动描述活动描述活动描述活动描述活动描述活动描述活动描述活动描述活动描述</view>
-                </view>
-              </navigator>
-              <view class='shareIcon'></view>
-          </view>
-          <view class='commonReviewList marginside10'>
-              <navigator url="/pages/tab_Index/videoDetail/videoDetail" open-type="redirect">
-                <image src='../../../images/commonImg.jpg' class='commonReviewImage pull-left' mode='aspectFill'></image>        
-                <view class='commonReviewInfo'>
-                    <view class='name colorWhite font16 line2Ellipsis'>2019年新年新气象2019年新年新气象</view>
-                    <view class='info colorWhite font14 line2Ellipsis'>活动描述活动描述活动描述活动描述活动描述活动描述活动描述活动描述活动描述活动描述</view>
-                </view>
-              </navigator>
-              <view class='shareIcon'></view>
-          </view>
-
-
-      </view>
-      <view style='height:44px'></view>
+      <!-- <view style='height:44px'></view> -->
       <view class='fixedTop flexbox colorWhite font14'>
           <view class='footerTab'>
               <i class="icon iconDot"></i>点赞  23

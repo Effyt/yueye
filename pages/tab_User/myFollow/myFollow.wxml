@@ -1,0 +1,6 @@
+<!--myFollow.wxml-->
+<view class="container">
+    <view class='commonTitle'>我的关注</view>   
+
+
+</view>

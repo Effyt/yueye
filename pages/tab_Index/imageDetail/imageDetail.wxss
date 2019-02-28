@@ -30,8 +30,8 @@ page{ background: #2D2D2D}
 .modalListBox .list .Detail .info{ margin-bottom: 10px}
 
 
-
-
+.imagesContent{ height: 100vh;  display: -webkit-box; -webkit-box-pack: center;  -webkit-box-align: center;}
+.imagesContent image{ width: 100%}
 
 
 input::-webkit-input-placeholder{
